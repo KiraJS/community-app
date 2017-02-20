@@ -3,36 +3,36 @@
       "title": "Виртуальное приватное облако: подготовка образов",
       "autor": "Сергей Никифоров",
       "likes": 2,
-      "imgUrl": "/assets/img/article1.jpg"
+      "imgUrl": "assets/img/article1.jpg"
     },
     {
       "title": "Мониторинг безопаcности с Sysdig Falco",
       "autor": "Стас Костин",
       "likes": 23,
-      "imgUrl": "/assets/img/article2.jpg"
+      "imgUrl": "assets/img/article2.jpg"
     },
     {
       "title": "Механизмы контейнеризации: cgroups",
       "autor": "Сергей Никифоров",
       "likes": 1,
-      "imgUrl": "/assets/img/article3.jpg"
+      "imgUrl": "assets/img/article3.jpg"
     },
     {
       "title": "Вглубь ядра: знакомство с LTTng",
       "autor": "Стас Костин",
       "likes": 6,
-      "imgUrl": "/assets/img/article4.jpg"
+      "imgUrl": "assets/img/article4.jpg"
     },
     {
       "title": "Rclone: rsync для облаков",
       "autor": "Сергей Никифоров",
       "likes": 3,
-      "imgUrl": "/assets/img/article5.jpg"
+      "imgUrl": "assets/img/article5.jpg"
     },
     {
       "title": "Облачное хранилище: обновление API",
       "autor": "Стас Костин",
       "likes": 7,
-      "imgUrl": "/assets/img/article6.jpg"
+      "imgUrl": "assets/img/article6.jpg"
     }
   ]

@@ -12,6 +12,6 @@ interface IFooter {
 
 export class FooterComponent implements IFooter {
 
-  public logoSrc: string = '/assets/img/logo.png';
+  public logoSrc: string = 'assets/img/logo.png';
 
 }

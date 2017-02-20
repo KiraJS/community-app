@@ -4,11 +4,11 @@ import {Http} from '@angular/http';
 @Injectable()
 export class MainService {
 
-  constructor(private http: Http) {
+  public constructor(private http: Http) {
 
   }
-  getData(){
-    return this.http.get('data/articles.json')
+  public getData(){
+    return this.http.get('assets/data/articles.json');
   }
 
 }

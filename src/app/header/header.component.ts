@@ -11,5 +11,5 @@ interface IHeader {
 })
 
 export class HeaderComponent implements IHeader {
-  public logoSrc: string = '/assets/img/logo.png';
+  public logoSrc: string = 'assets/img/logo.png';
 }
