@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<app-header></app-header>
+<app-search (onChanged)="onChanged($event)"></app-search>
+
+<div class="content">
+  <app-main [searchString]="searchString">
+
+  </app-main>
+</div>
+
+<app-footer class="footer"></app-footer>
+
+
+
