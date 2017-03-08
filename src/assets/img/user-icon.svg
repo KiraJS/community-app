@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>User icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/user" transform="translate(-1.000000, 0.000000)" fill="#424951">
+            <path d="M9,8 C6.790861,8 5,6.209139 5,4 C5,1.790861 6.790861,0 9,0 C11.209139,0 13,1.790861 13,4 C13,6.209139 11.209139,8 9,8 Z M17.0025575,14.0024306 L17.0025575,14.0024306 C14.6176491,15.2772427 11.893229,16 9,16 C6.10677095,16 3.38235092,15.2772427 0.997442487,14.0024306 C2.82174272,11.5721548 5.72727314,10 9,10 C12.2727269,10 15.1782573,11.5721548 17.0025575,14.0024306 Z" id="User-icon"></path>
+        </g>
+    </g>
+</svg>

@@ -11,6 +11,12 @@ import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { SearchComponent } from './search/search.component';
 import { SearchPipe } from './common/pipes/search.pipe';
+import { ArticlesComponent } from './articles/articles.component';
+import { QestionsComponent } from './qestions/qestions.component';
+
+import { routes } from './routes';
+import { RouterModule } from '@angular/router';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +28,17 @@ import { SearchPipe } from './common/pipes/search.pipe';
     MainComponent,
     SearchComponent,
     SearchPipe,
-    SearchPipe
+    SearchPipe,
+    ArticlesComponent,
+    QestionsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(routes),
+
   ],
   providers: [],
   bootstrap: [AppComponent]
