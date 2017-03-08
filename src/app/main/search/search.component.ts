@@ -9,8 +9,8 @@ interface ISearch {
 
 @Component({
   selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.styl']
+  templateUrl: 'search.component.html',
+  styleUrls: ['search.component.styl']
 })
 export class SearchComponent implements ISearch {
 

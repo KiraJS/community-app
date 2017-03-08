@@ -1,17 +1,1 @@
-<div class="container container-fluid">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h1>{{title}}</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"  *ngFor="let article of articles | search: searchString">
-      <div class="article">
-        <img src="{{article.imgUrl}}" alt="">
-        <h3>{{article.title}}</h3>
-        <span>{{article.autor}}</span>
-        <span class="likes">{{article.likes}}</span>
-      </div>
-    </div>
-  </div>
-</div>
+<router-outlet ></router-outlet>

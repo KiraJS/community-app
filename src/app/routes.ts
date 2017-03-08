@@ -1,7 +1,9 @@
 import { MainComponent } from './main/main.component';
 import { ArticlesComponent } from './articles/articles.component';
-import { QestionsComponent } from './qestions/qestions.component';
+import { QestionsComponent } from './main/qestions/qestions.component';
 import { ProfileComponent } from './profile/profile.component';
+import { HomeComponent } from './main/home/home.component';
+
 
 
 import { Route } from '@angular/router';
@@ -9,7 +11,7 @@ import { Route } from '@angular/router';
 export const routes: Route [] = [
   {
     path: '',
-    component: MainComponent
+    component: HomeComponent
   },
   {
     path: 'articles',
@@ -27,4 +29,4 @@ export const routes: Route [] = [
     path: '**',
     redirectTo: ''
   }
-]
+];

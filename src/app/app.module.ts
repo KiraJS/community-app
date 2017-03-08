@@ -9,14 +9,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
-import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './main/search/search.component';
 import { SearchPipe } from './common/pipes/search.pipe';
 import { ArticlesComponent } from './articles/articles.component';
-import { QestionsComponent } from './qestions/qestions.component';
+import { QestionsComponent } from './main/qestions/qestions.component';
 
 import { routes } from './routes';
 import { RouterModule } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
+import { HomeComponent } from './main/home/home.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ProfileComponent } from './profile/profile.component';
     SearchPipe,
     ArticlesComponent,
     QestionsComponent,
-    ProfileComponent
+    ProfileComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
