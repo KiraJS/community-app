@@ -20,8 +20,11 @@ export class HomeComponent implements OnInit, IHome {
   public title: string = 'Самое популярное в сообществе';
 
   public articles: article[];
-  @Input() public searchString: string;
-
+  public searchString: string;
+  public onChanged(value: string): void {
+    console.log('main.ts', this.searchString);
+    this.searchString = value;
+  }
   public constructor(private homeService: HomeService) { }
 
   public ngOnInit(): void {

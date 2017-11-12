@@ -1,0 +1,32 @@
+<div class="container container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h1>{{title}}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <form class="col-xs-8 col-sm-8 col-md-8 col-lg-8" [formGroup]="myForm" (submit)="submit(myForm.valid)">
+      <div class="wrap">
+        <label for="name"> Имя в сообществе</label>
+        <input type="text" id="name"  name="name" formControlName="userName"><br>
+        <div class="alert alert-danger" *ngIf="myForm.controls['userName'].invalid && myForm.controls['userName'].touched">
+          Не указано имя
+        </div>
+      </div>
+      <div class="wrap">
+        <label for="mail"> E-mail</label>
+        <input type="text" id="mail"  name="mail" formControlName="userEmail"><br>
+        <div class="alert alert-danger" *ngIf="myForm.controls['userEmail'].invalid && myForm.controls['userEmail'].touched">
+          Не указан E-mail
+        </div>
+      </div>
+      <input type="submit"  formControlName="userSubmit" [disabled]="myForm.invalid" [routerLink]="['../profile']">
+    </form>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <ul>
+        <li class="nav-item" [routerLink]="['../profile']">Профиль</li>
+        <li class="nav-item">Настройки профиля</li>
+      </ul>
+    </div>
+  </div>
+</div>

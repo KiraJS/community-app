@@ -18,6 +18,7 @@ export class SearchComponent implements ISearch {
   @Input() public searchString: string;
   @Output() public onChanged: EventEmitter<string> = new EventEmitter<string>();
   public filterArticles(value: string): void {
+    console.log('search.ts');
     this.onChanged.emit(value);
   }
 }

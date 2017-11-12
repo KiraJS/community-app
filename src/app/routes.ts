@@ -1,10 +1,8 @@
-import { MainComponent } from './main/main.component';
-import { ArticlesComponent } from './articles/articles.component';
+import { ArticlesComponent } from './main/articles/articles.component';
 import { QestionsComponent } from './main/qestions/qestions.component';
-import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './main/home/home.component';
-
-
+import { ProfileComponent } from './profile/profile.component';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
 import { Route } from '@angular/router';
 
@@ -24,6 +22,10 @@ export const routes: Route [] = [
   {
     path: 'profile',
     component: ProfileComponent,
+  },
+  {
+    path: 'profile-editor',
+    component: ProfileEditorComponent,
   },
   {
     path: '**',

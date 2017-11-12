@@ -8,9 +8,9 @@ import {Component, OnInit, Input} from '@angular/core';
 })
 
 export class MainComponent  {
-  @Input() public searchString: string;
-  @Input() public onChanged: void;
-  // public onChanged(value: string): void {
-  //   this.searchString = value;
-  // }
+  public searchString: string;
+  public onChanged(value: string): void {
+    console.log('main.ts', this.searchString);
+    this.searchString = value;
+  }
 }

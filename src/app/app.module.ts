@@ -11,13 +11,16 @@ import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { SearchComponent } from './main/search/search.component';
 import { SearchPipe } from './common/pipes/search.pipe';
-import { ArticlesComponent } from './articles/articles.component';
+import { ArticlesComponent } from './main/articles/articles.component';
 import { QestionsComponent } from './main/qestions/qestions.component';
 
 import { routes } from './routes';
 import { RouterModule } from '@angular/router';
-import { ProfileComponent } from './profile/profile.component';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { HomeComponent } from './main/home/home.component';
+
+import { ReactiveFormsModule }   from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -32,14 +35,16 @@ import { HomeComponent } from './main/home/home.component';
     SearchPipe,
     ArticlesComponent,
     QestionsComponent,
-    ProfileComponent,
-    HomeComponent
+    ProfileEditorComponent,
+    HomeComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(routes),
+    ReactiveFormsModule
 
   ],
   providers: [],

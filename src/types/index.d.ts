@@ -4,3 +4,8 @@ type article = {
   likes: number,
   imgSrc: string
 };
+
+type user = {
+  name: string,
+  mail: string
+};

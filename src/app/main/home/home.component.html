@@ -1,3 +1,7 @@
+<app-home [articles]="articles">
+
+</app-home>
+<app-search (onChanged)="onChanged($event)" [searchString]="searchString"></app-search>
 
 <div class="container container-fluid">
   <div class="row">

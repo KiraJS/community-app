@@ -50,7 +50,7 @@
     "class-name": true,
     "no-var-requires": false,
     "no-console": [
-      true,
+      false,
       "log"
     ],
     "typedef": [
